@@ -1,0 +1,14 @@
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\bin\Debug\net8.0\ClinicaMedica.Core.deps.json
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\bin\Debug\net8.0\ClinicaMedica.Core.runtimeconfig.json
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\bin\Debug\net8.0\ClinicaMedica.Core.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\bin\Debug\net8.0\ClinicaMedica.Core.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.csproj.AssemblyReference.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.AssemblyInfoInputs.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.AssemblyInfo.cs
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.csproj.CoreCompileInputs.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\refint\ClinicaMedica.Core.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ClinicaMedica.Core.genruntimeconfig.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Core\obj\Debug\net8.0\ref\ClinicaMedica.Core.dll

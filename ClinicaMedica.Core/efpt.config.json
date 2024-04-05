@@ -1,0 +1,65 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "ClinicaMedicaContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entidades",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "ClinicaMedica.Core",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Anexo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Atendimento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Medico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Paciente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Servico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Usuario]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

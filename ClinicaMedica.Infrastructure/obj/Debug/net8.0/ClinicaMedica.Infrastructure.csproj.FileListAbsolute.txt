@@ -1,0 +1,15 @@
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\bin\Debug\net8.0\ClinicaMedica.Infrastructure.deps.json
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\bin\Debug\net8.0\ClinicaMedica.Infrastructure.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\bin\Debug\net8.0\ClinicaMedica.Infrastructure.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\bin\Debug\net8.0\ClinicaMedica.Core.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\bin\Debug\net8.0\ClinicaMedica.Core.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.csproj.AssemblyReference.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.AssemblyInfoInputs.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.AssemblyInfo.cs
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.csproj.CopyComplete
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\refint\ClinicaMedica.Infrastructure.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ref\ClinicaMedica.Infrastructure.dll

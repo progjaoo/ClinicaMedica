@@ -1,0 +1,15 @@
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\bin\Debug\net8.0\ClinicaMedica.Application.deps.json
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\bin\Debug\net8.0\ClinicaMedica.Application.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\bin\Debug\net8.0\ClinicaMedica.Application.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.AssemblyInfoInputs.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.AssemblyInfo.cs
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.csproj.CoreCompileInputs.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\refint\ClinicaMedica.Application.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ref\ClinicaMedica.Application.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\bin\Debug\net8.0\ClinicaMedica.Core.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\bin\Debug\net8.0\ClinicaMedica.Core.pdb
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.csproj.AssemblyReference.cache
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Application\obj\Debug\net8.0\ClinicaMedica.Application.csproj.CopyComplete

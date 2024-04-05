@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Atendimento\" />
+    <Folder Include="Commands\Usuario\" />
+    <Folder Include="Commands\Servico\" />
+    <Folder Include="Commands\Medico\" />
+    <Folder Include="Commands\Anexo\" />
+    <Folder Include="DTO%27s\" />
+    <Folder Include="Queries\Anexo\" />
+    <Folder Include="Queries\Atendimento\" />
+    <Folder Include="Queries\Medico\" />
+    <Folder Include="Queries\Servico\" />
+    <Folder Include="Queries\Usuario\" />
+    <Folder Include="Validator\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClinicaMedica.Core\ClinicaMedica.Core.csproj" />
+  </ItemGroup>
+
+</Project>
