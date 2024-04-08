@@ -7,6 +7,18 @@ namespace ClinicaMedica.Core.Entidades;
 
 public partial class Medico
 {
+    public Medico(string nome, string crm, string especialidade, string email,
+        string celular, string endereco)
+    {
+        Nome = nome;
+        Crm = crm;
+        Especialidade = especialidade;
+        Email = email;
+        Celular = celular;
+        Endereco = endereco;
+        DataCadastro = DateTime.UtcNow;
+    }
+
     public int IdMedico { get; private set; }
     public string Nome { get; private set; }
     public string Crm { get; private set; }
@@ -15,4 +27,14 @@ public partial class Medico
     public string Celular { get; private set; }
     public string Endereco { get; private set; }
     public DateTime? DataCadastro { get; private set; }
+
+    public void Update(string nome, string crm, string especialidade, string email, string celular, string endereco)
+    {
+        Nome = nome;
+        Crm = crm;
+        Especialidade = especialidade;
+        Email = email;
+        Celular = celular;
+        Endereco = endereco;
+    }
 }
