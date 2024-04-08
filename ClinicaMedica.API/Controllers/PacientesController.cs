@@ -1,9 +1,15 @@
 ﻿using ClinicaMedica.Application.Commands.Pacientes.CreatePacienteCommand;
+using ClinicaMedica.Application.Commands.Pacientes.DeletePacienteCommand;
+using ClinicaMedica.Application.Commands.Pacientes.UpdatePacienteCommand;
 using ClinicaMedica.Application.Queries.Pacientes.GetAll;
+using ClinicaMedica.Application.Queries.Pacientes.GetByCpf;
 using ClinicaMedica.Application.Queries.Pacientes.GetById;
+using ClinicaMedica.Application.Queries.Pacientes.GetByTelefone;
 using ClinicaMedica.Core.Repositorios;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace ClinicaMedica.API.Controllers
 {
@@ -58,11 +64,11 @@ namespace ClinicaMedica.API.Controllers
         [HttpGet("GetCPF")]
         public async Task<IActionResult> GetByCpf(string cpf)
         {
-            var obterCpf = await _pacienteRepository.GetByCpf(cpf);
+            var obertCpf = new GetByCpfQuery(cpf);
 
             try
             {
-                var paciente = await _mediator.Send(obterCpf);
+                var paciente = await _mediator.Send(obertCpf);
 
                 if (paciente == null)
                 {
@@ -78,11 +84,11 @@ namespace ClinicaMedica.API.Controllers
         [HttpGet("GetTelefone")]
         public async Task<IActionResult> GetByTelefone(string celular)
         {
-            var obterCpf = await _pacienteRepository.GetByCelular(celular);
+            var obterCell = new GetByCelularQuery(celular);
 
             try
             {
-                var paciente = await _mediator.Send(obterCpf);
+                var paciente = await _mediator.Send(obterCell);
 
                 if (paciente == null)
                 {
@@ -113,15 +119,20 @@ namespace ClinicaMedica.API.Controllers
                 return StatusCode(500, "Não foi possível adicionar o paciente!");
             }
         }
-        [HttpPut]
-        public async Task<IActionResult> Put(int id)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(UpdatePacienteCommand command)
         {
+            await _mediator.Send(command);
+
             return NoContent();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            return Ok();
+            var command = new DeletePacienteCommand(id);
+            await _mediator.Send(command);
+
+            return NoContent();
         }
     }
 }

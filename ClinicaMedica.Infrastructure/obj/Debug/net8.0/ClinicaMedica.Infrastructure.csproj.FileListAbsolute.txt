@@ -13,3 +13,4 @@ D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infra
 D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\refint\ClinicaMedica.Infrastructure.dll
 D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.pdb
 D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ref\ClinicaMedica.Infrastructure.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.Infrastructure\obj\Debug\net8.0\ClinicaMedica.Infrastructure.sourcelink.json
