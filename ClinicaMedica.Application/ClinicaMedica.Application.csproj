@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Atendimento\NovaPasta\" />
+    <Folder Include="Commands\Atendimento\UpdateAtendimento\" />
+    <Folder Include="Commands\Atendimento\DeleteAtendimento\" />
+    <Folder Include="Commands\Atendimento\CreateAtendimento\" />
     <Folder Include="Commands\Usuario\" />
     <Folder Include="Commands\Servico\" />
     <Folder Include="Commands\Anexo\" />
     <Folder Include="DTO%27s\" />
     <Folder Include="Queries\Anexo\" />
-    <Folder Include="Queries\Atendimento\GetById\" />
-    <Folder Include="Queries\Atendimento\GetAll\" />
     <Folder Include="Queries\Servico\" />
     <Folder Include="Queries\Usuario\" />
     <Folder Include="Validator\" />

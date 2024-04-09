@@ -15,7 +15,6 @@ namespace ClinicaMedica.Infrastructure.Persistence.Repositorios
         {
             return await _dbcontext.Atendimentos.ToListAsync();
         }
-
         public async Task<Atendimento> GetById(int id)
         {
             return await _dbcontext.Atendimentos.SingleOrDefaultAsync(a => a.IdAtendimento == id);

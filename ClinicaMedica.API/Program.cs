@@ -27,6 +27,7 @@ builder.Services.AddDbContext<ClinicaMedicaContext>(options =>
 builder.Services.AddScoped<IAuthService, AuthenticationService>();
 builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
 builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
+builder.Services.AddScoped<IAtendimentoRepository, AtendimentoRepository>();
 
 //mediator
 builder.Services.AddMediatR(typeof(GetAllPacientesQuery));
