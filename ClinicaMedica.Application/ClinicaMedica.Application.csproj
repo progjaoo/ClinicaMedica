@@ -8,14 +8,14 @@
 
   <ItemGroup>
     <Folder Include="Commands\Atendimento\" />
+    <Folder Include="Commands\Medicos\DeleteMedico\" />
+    <Folder Include="Commands\Medicos\UpdateMedico\" />
     <Folder Include="Commands\Usuario\" />
     <Folder Include="Commands\Servico\" />
-    <Folder Include="Commands\Medico\" />
     <Folder Include="Commands\Anexo\" />
     <Folder Include="DTO%27s\" />
     <Folder Include="Queries\Anexo\" />
     <Folder Include="Queries\Atendimento\" />
-    <Folder Include="Queries\Medico\" />
     <Folder Include="Queries\Servico\" />
     <Folder Include="Queries\Usuario\" />
     <Folder Include="Validator\" />
