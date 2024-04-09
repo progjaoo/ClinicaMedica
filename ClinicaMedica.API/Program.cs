@@ -2,6 +2,7 @@ using ClinicaMedica.Application.Commands.Pacientes.CreatePacienteCommand;
 using ClinicaMedica.Application.Queries.Pacientes.GetAll;
 using ClinicaMedica.Core.Entidades;
 using ClinicaMedica.Core.Repositorios;
+using ClinicaMedica.Infrastructure.Authentication;
 using ClinicaMedica.Infrastructure.Persistence.Repositorios;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ builder.Services.AddDbContext<ClinicaMedicaContext>(options =>
 
 
 //injeções de dependencia
+builder.Services.AddScoped<IAuthService, AuthenticationService>();
 builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
 builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
 

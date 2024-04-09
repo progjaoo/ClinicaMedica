@@ -1,5 +1,8 @@
 ﻿using ClinicaMedica.Core.Repositorios;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -28,10 +31,32 @@ namespace ClinicaMedica.Infrastructure.Authentication
                 return builder.ToString();
             }
         }
-
         public string GenerateJwtToken(string email, string role)
         {
-            throw new NotImplementedException();
+            var issuer = _configuration["Jwt:Issuer"];
+            var audience = _configuration["Jwt:Audience"];
+
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            var claims = new List<Claim>
+            {
+                new Claim("userName", email),
+                new Claim(ClaimTypes.Role, role)
+            };
+
+            var token = new JwtSecurityToken(
+                issuer: issuer,
+                audience: audience,
+                expires: DateTime.Now.AddMinutes(120),
+                signingCredentials: credentials,
+                claims: claims);
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+
+            var stringToken = tokenHandler.WriteToken(token);
+
+            return stringToken;
         }
     }
 }
