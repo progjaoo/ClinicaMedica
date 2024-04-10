@@ -6,8 +6,21 @@ namespace ClinicaMedica.Core.Entidades;
 
 public partial class Anexo
 {
+    public Anexo(TipoAnexo tipoAnexo, string nomeArquivo, byte[] arquivo)
+    {
+        TipoAnexo = tipoAnexo;
+        NomeArquivo = nomeArquivo;
+        Arquivo = arquivo;
+    }
     public int IdAnexo { get; private set; }
     public TipoAnexo TipoAnexo { get; private set; }
     public string NomeArquivo { get; private set; }
     public byte[] Arquivo { get; private set; }
+
+    public void Update(TipoAnexo tipoAnexo, string nomeArquivo, byte[] arquivo)
+    {
+        TipoAnexo = tipoAnexo;
+        NomeArquivo = nomeArquivo;
+        Arquivo = arquivo;
+    }
 }

@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClinicaMedica.Core.Enums
+﻿namespace ClinicaMedica.Core.Enums
 {
     public enum TipoAnexo
     {
         Atestado = 1,
         Receita = 2,
-        Evolução = 3
+        Evolução = 3,
+        Relatorio = 4,
+        DocumentacaoMedica = 5
     }
 }

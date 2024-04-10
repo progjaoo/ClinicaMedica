@@ -29,12 +29,11 @@ builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
 builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
 builder.Services.AddScoped<IAtendimentoRepository, AtendimentoRepository>();
 builder.Services.AddScoped<IServicosRepository, ServicosRepository>();
+builder.Services.AddScoped<IAnexoRepository, AnexoRepository>();
 
 //mediator
 builder.Services.AddMediatR(typeof(GetAllPacientesQuery));
 builder.Services.AddMediatR(typeof(CreatePacienteCommand));
-
-
 #endregion
 
 builder.Services.AddHttpClient();

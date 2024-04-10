@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entidades\" />
+    <Folder Include="Entidades\GoogleCalendar\" />
   </ItemGroup>
 
   <ItemGroup>

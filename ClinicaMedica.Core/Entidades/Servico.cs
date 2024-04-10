@@ -19,4 +19,12 @@ public partial class Servico
     public string Descricao { get; private set; }
     public decimal? Preco { get; private set; }
     public string Duracao { get; private set; }
+
+    public void Update(string nomeServico, string descricao, decimal? preco, string duracao)
+    {
+        NomeServico = nomeServico;
+        Descricao = descricao;
+        Preco = preco;
+        Duracao = duracao;
+    }
 }
