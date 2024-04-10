@@ -7,6 +7,13 @@ namespace ClinicaMedica.Core.Entidades;
 
 public partial class Servico
 {
+    public Servico(string nomeServico, string descricao, decimal? preco, string duracao)
+    {
+        NomeServico = nomeServico;
+        Descricao = descricao;
+        Preco = preco;
+        Duracao = duracao;
+    }
     public int IdServico { get; private set; }
     public string NomeServico { get; private set; }
     public string Descricao { get; private set; }

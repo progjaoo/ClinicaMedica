@@ -5,7 +5,6 @@ namespace ClinicaMedica.Application.Commands.Atendimento.CreateAtendimento
 {
     public class CreateAtendimentoCommand : IRequest<int>
     {
-        public int IdAtendimento { get;  set; }
         public int IdServico { get;  set; }
         public int IdMedico { get;  set; }
         public int IdPaciente { get;  set; }

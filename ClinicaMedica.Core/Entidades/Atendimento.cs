@@ -6,13 +6,13 @@ namespace ClinicaMedica.Core.Entidades;
 
 public partial class Atendimento
 {
-    public Atendimento(int idServico, int idMedico, int idPaciente, TipoAtendimento tipoAtendimento, DateTime? dataFim)
+    public Atendimento(int idServico, int idMedico, int idPaciente, TipoAtendimento tipoAtendimento, DateTime? dataInicio, DateTime? dataFim)
     {
         IdServico = idServico;
         IdMedico = idMedico;
         IdPaciente = idPaciente;
         TipoAtendimento = tipoAtendimento;
-        DataInicio = DateTime.UtcNow;
+        DataInicio = dataInicio;
         DataFim = dataFim;
     }
 
@@ -24,10 +24,13 @@ public partial class Atendimento
     public DateTime? DataInicio { get; private set; }
     public DateTime? DataFim { get; private set; }
 
-    public void Update(TipoAtendimento tipoAtendimento, DateTime dataInicio, DateTime dataFim)
+    public void Update(int idServico, int idMedico, int idPaciente, TipoAtendimento tipoAtendimento, DateTime? dataInicio, DateTime? dataFim)
     {
+        IdServico = idServico;
+        IdMedico = idMedico;
+        IdPaciente = idPaciente;
         TipoAtendimento = tipoAtendimento;
-        DataInicio = DateTime.UtcNow;
+        DataInicio = dataInicio;
         DataFim = dataFim;
     }
 }

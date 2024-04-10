@@ -28,6 +28,7 @@ builder.Services.AddScoped<IAuthService, AuthenticationService>();
 builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
 builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
 builder.Services.AddScoped<IAtendimentoRepository, AtendimentoRepository>();
+builder.Services.AddScoped<IServicosRepository, ServicosRepository>();
 
 //mediator
 builder.Services.AddMediatR(typeof(GetAllPacientesQuery));

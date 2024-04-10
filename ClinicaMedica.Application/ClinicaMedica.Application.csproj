@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Atendimento\UpdateAtendimento\" />
-    <Folder Include="Commands\Atendimento\DeleteAtendimento\" />
-    <Folder Include="Commands\Atendimento\CreateAtendimento\" />
+    <Folder Include="Commands\Atendimentos\UpdateAtendimento\" />
+    <Folder Include="Commands\Atendimentos\DeleteAtendimento\" />
     <Folder Include="Commands\Usuario\" />
     <Folder Include="Commands\Servico\" />
     <Folder Include="Commands\Anexo\" />
