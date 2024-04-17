@@ -1,4 +1,4 @@
-﻿using ClinicaMedica.Core.Entidades;
+﻿ using ClinicaMedica.Core.Entidades;
 using ClinicaMedica.Core.Repositorios;
 using Microsoft.EntityFrameworkCore;
 

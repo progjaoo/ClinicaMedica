@@ -122,6 +122,9 @@
             "projectReferences": {
               "D:\\PC - 2024\\2 - PROJETOS PESSOAIS\\Banco First\\ClinicaMedica\\ClinicaMedica.Core\\ClinicaMedica.Core.csproj": {
                 "projectPath": "D:\\PC - 2024\\2 - PROJETOS PESSOAIS\\Banco First\\ClinicaMedica\\ClinicaMedica.Core\\ClinicaMedica.Core.csproj"
+              },
+              "D:\\PC - 2024\\2 - PROJETOS PESSOAIS\\Banco First\\ClinicaMedica\\ClinicaMedica.Infrastructure\\ClinicaMedica.Infrastructure.csproj": {
+                "projectPath": "D:\\PC - 2024\\2 - PROJETOS PESSOAIS\\Banco First\\ClinicaMedica\\ClinicaMedica.Infrastructure\\ClinicaMedica.Infrastructure.csproj"
               }
             }
           }
@@ -147,6 +150,10 @@
             "Google.Apis.Calendar.v3": {
               "target": "Package",
               "version": "[1.67.0.3374, )"
+            },
+            "Google.Apis.Gmail.v1": {
+              "target": "Package",
+              "version": "[1.67.0.3287, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",

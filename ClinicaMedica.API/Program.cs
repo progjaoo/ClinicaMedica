@@ -1,4 +1,5 @@
 using ClinicaMedica.Application.Commands.Pacientes.CreatePacienteCommand;
+using ClinicaMedica.Application.Email;
 using ClinicaMedica.Application.Queries.Pacientes.GetAll;
 using ClinicaMedica.Core.Entidades;
 using ClinicaMedica.Core.Repositorios;
@@ -30,6 +31,8 @@ builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
 builder.Services.AddScoped<IAtendimentoRepository, AtendimentoRepository>();
 builder.Services.AddScoped<IServicosRepository, ServicosRepository>();
 builder.Services.AddScoped<IAnexoRepository, AnexoRepository>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 //mediator
 builder.Services.AddMediatR(typeof(GetAllPacientesQuery));

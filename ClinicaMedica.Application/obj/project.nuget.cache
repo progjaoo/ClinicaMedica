@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+GhoaVbqVMTTIxZJ9POlJffZAsoYI7QHk/AWGRTPzPuz7qEyyWm9PJ46Au3lZmd+s4ebETPLoz50KWJ2vu8fBA==",
+  "dgSpecHash": "3W8Rlnvo41qUtSXM2gYlNYXLh6Jm1E3OGKW+IJEIn3EGo0zIAfdrChmNVDlDjbFJ/E+cs9f+K5+cKeWyCsEt5g==",
   "success": true,
   "projectFilePath": "D:\\PC - 2024\\2 - PROJETOS PESSOAIS\\Banco First\\ClinicaMedica\\ClinicaMedica.Application\\ClinicaMedica.Application.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\joaov\\.nuget\\packages\\google.apis.auth\\1.67.0\\google.apis.auth.1.67.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\google.apis.calendar.v3\\1.67.0.3374\\google.apis.calendar.v3.1.67.0.3374.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\google.apis.core\\1.67.0\\google.apis.core.1.67.0.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\google.apis.gmail.v1\\1.67.0.3287\\google.apis.gmail.v1.1.67.0.3287.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

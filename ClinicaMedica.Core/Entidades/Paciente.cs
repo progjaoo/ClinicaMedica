@@ -35,7 +35,7 @@ public partial class Paciente
     {
         Nome = nome;
         Cpf = cpf;
-        Celular =celular;
+        Celular = celular;
         Email = email;
         Endereco = endereco;
         DataNasc = dataNasc;
