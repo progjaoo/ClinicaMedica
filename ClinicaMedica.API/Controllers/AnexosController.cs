@@ -44,7 +44,7 @@ namespace ClinicaMedica.API.Controllers
         {
             var id = await _mediator.Send(command);
 
-            return CreatedAtAction(nameof(GetById), new { id = id }, command);
+            return CreatedAtAction(nameof(GetById), new { id = id }, new { id = id });
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(UpdateAnexoCommand command)

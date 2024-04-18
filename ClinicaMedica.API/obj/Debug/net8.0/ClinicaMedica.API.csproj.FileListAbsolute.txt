@@ -89,3 +89,4 @@ D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.API\b
 D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.API\bin\Debug\net8.0\System.CodeDom.dll
 D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.API\bin\Debug\net8.0\System.Management.dll
 D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.API\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+D:\PC - 2024\2 - PROJETOS PESSOAIS\Banco First\ClinicaMedica\ClinicaMedica.API\bin\Debug\net8.0\Google.Apis.Gmail.v1.dll

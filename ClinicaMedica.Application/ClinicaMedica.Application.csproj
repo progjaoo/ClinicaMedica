@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Commands\Servicos\CreateServico\" />
-    <Folder Include="Commands\Usuarios\" />
-    <Folder Include="Queries\Usuarios\" />
     <Folder Include="Validator\" />
   </ItemGroup>
 
@@ -23,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClinicaMedica.Core\ClinicaMedica.Core.csproj" />
+    <ProjectReference Include="..\ClinicaMedica.Infrastructure\ClinicaMedica.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
